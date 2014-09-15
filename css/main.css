@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Georgia', 'Helvetica';
+}
+
+body {
+	background: url('../images/background.png') repeat-x top;
+}
+
+input, option {
+	font-family: 'lucida grande', 'Tahoma', 'Arial';
+}
+
+#container {
+	text-align: left;
+	padding: 10px;
+	width: 900px;
+	background: url('../images/strip.png') top repeat-x white;
+	border: 1px solid #555;
+	border-top: 0;
+	-moz-border-radius: 10px;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+	padding-top: 18px;
+}
+
+#logo {
+	width: 210px;
+	padding: 20px;
+	border-right: 1px dashed #CCC;
+	float: left;
+	padding-top: 10px;
+}
+
+#stats {
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 30px;
+	border: 1px solid #222;
+	-moz-border-radius: 5px;
+	background-color: #FFFCF2;
+	text-align: justify;
+}
+
+#controls {
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+
+#lectures {
+	float: left;
+	padding: 20px;
+	padding-top: 0;
+}
+
+.lecture_item {
+	width: 100%;
+	padding: 5px;
+	background-color: #f5f5f5;
+	-moz-border-radius: 5px;
+}
+
+.lecture_item .lecture_popularity {
+	float: right;
+}
